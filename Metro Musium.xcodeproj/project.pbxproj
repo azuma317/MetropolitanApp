@@ -7,23 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7532550A21A5623C00EBA69F /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550021A5623C00EBA69F /* 7.txt */; };
+		7532550B21A5623C00EBA69F /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550121A5623C00EBA69F /* 4.txt */; };
+		7532550C21A5623C00EBA69F /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550221A5623C00EBA69F /* 8.txt */; };
+		7532550D21A5623C00EBA69F /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550321A5623C00EBA69F /* 9.txt */; };
+		7532550E21A5623C00EBA69F /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550421A5623C00EBA69F /* 2.txt */; };
+		7532550F21A5623C00EBA69F /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550521A5623C00EBA69F /* 5.txt */; };
+		7532551021A5623C00EBA69F /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550621A5623C00EBA69F /* 3.txt */; };
+		7532551121A5623C00EBA69F /* 10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550721A5623C00EBA69F /* 10.txt */; };
+		7532551221A5623C00EBA69F /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550821A5623C00EBA69F /* 1.txt */; };
+		7532551321A5623C00EBA69F /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532550921A5623C00EBA69F /* 6.txt */; };
+		7532552821A5636600EBA69F /* 15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551421A5636500EBA69F /* 15.txt */; };
+		7532552921A5636600EBA69F /* 25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551521A5636500EBA69F /* 25.txt */; };
+		7532552A21A5636600EBA69F /* 26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551621A5636500EBA69F /* 26.txt */; };
+		7532552B21A5636600EBA69F /* 23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551721A5636500EBA69F /* 23.txt */; };
+		7532552C21A5636600EBA69F /* 17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551821A5636500EBA69F /* 17.txt */; };
+		7532552D21A5636600EBA69F /* 22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551921A5636500EBA69F /* 22.txt */; };
+		7532552E21A5636600EBA69F /* 30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551A21A5636500EBA69F /* 30.txt */; };
+		7532552F21A5636600EBA69F /* 14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551B21A5636500EBA69F /* 14.txt */; };
+		7532553021A5636600EBA69F /* 27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551C21A5636500EBA69F /* 27.txt */; };
+		7532553121A5636600EBA69F /* 28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551D21A5636500EBA69F /* 28.txt */; };
+		7532553221A5636600EBA69F /* 29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551E21A5636500EBA69F /* 29.txt */; };
+		7532553321A5636600EBA69F /* 21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532551F21A5636500EBA69F /* 21.txt */; };
+		7532553421A5636600EBA69F /* 18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552021A5636600EBA69F /* 18.txt */; };
+		7532553521A5636600EBA69F /* 11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552121A5636600EBA69F /* 11.txt */; };
+		7532553621A5636600EBA69F /* 16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552221A5636600EBA69F /* 16.txt */; };
+		7532553721A5636600EBA69F /* 19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552321A5636600EBA69F /* 19.txt */; };
+		7532553821A5636600EBA69F /* 24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552421A5636600EBA69F /* 24.txt */; };
+		7532553921A5636600EBA69F /* 20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552521A5636600EBA69F /* 20.txt */; };
+		7532553A21A5636600EBA69F /* 12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552621A5636600EBA69F /* 12.txt */; };
+		7532553B21A5636600EBA69F /* 13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7532552721A5636600EBA69F /* 13.txt */; };
+		753F2C1021A3DD9F00DBFF26 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F2C0F21A3DD9F00DBFF26 /* PhotoController.swift */; };
 		75563A9221A2AE28004F3D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563A9121A2AE28004F3D4C /* AppDelegate.swift */; };
-		75563A9421A2AE28004F3D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563A9321A2AE28004F3D4C /* ViewController.swift */; };
 		75563A9721A2AE28004F3D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75563A9521A2AE28004F3D4C /* Main.storyboard */; };
 		75563A9A21A2AE28004F3D4C /* Metro_Musium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75563A9821A2AE28004F3D4C /* Metro_Musium.xcdatamodeld */; };
 		75563A9C21A2AE2A004F3D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75563A9B21A2AE2A004F3D4C /* Assets.xcassets */; };
 		75563A9F21A2AE2A004F3D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75563A9D21A2AE2A004F3D4C /* LaunchScreen.storyboard */; };
+		75563AA721A2B04D004F3D4C /* WorkListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563AA621A2B04D004F3D4C /* WorkListController.swift */; };
+		75563AA921A2B068004F3D4C /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563AA821A2B068004F3D4C /* WorkCell.swift */; };
+		75563AAB21A2B1EE004F3D4C /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563AAA21A2B1EE004F3D4C /* Work.swift */; };
+		75563AAF21A2FA9E004F3D4C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75563AAD21A2FA98004F3D4C /* Kingfisher.framework */; };
+		75563AB021A2FA9E004F3D4C /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75563AAD21A2FA98004F3D4C /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75563AB421A30D25004F3D4C /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75563AB321A30D25004F3D4C /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		75563AB121A2FA9F004F3D4C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75563AB021A2FA9E004F3D4C /* Kingfisher.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7532550021A5623C00EBA69F /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 7.txt; path = File/7.txt; sourceTree = SOURCE_ROOT; };
+		7532550121A5623C00EBA69F /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 4.txt; path = File/4.txt; sourceTree = SOURCE_ROOT; };
+		7532550221A5623C00EBA69F /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 8.txt; path = File/8.txt; sourceTree = SOURCE_ROOT; };
+		7532550321A5623C00EBA69F /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 9.txt; path = File/9.txt; sourceTree = SOURCE_ROOT; };
+		7532550421A5623C00EBA69F /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 2.txt; path = File/2.txt; sourceTree = SOURCE_ROOT; };
+		7532550521A5623C00EBA69F /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 5.txt; path = File/5.txt; sourceTree = SOURCE_ROOT; };
+		7532550621A5623C00EBA69F /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 3.txt; path = File/3.txt; sourceTree = SOURCE_ROOT; };
+		7532550721A5623C00EBA69F /* 10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 10.txt; path = File/10.txt; sourceTree = SOURCE_ROOT; };
+		7532550821A5623C00EBA69F /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 1.txt; path = File/1.txt; sourceTree = SOURCE_ROOT; };
+		7532550921A5623C00EBA69F /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 6.txt; path = File/6.txt; sourceTree = SOURCE_ROOT; };
+		7532551421A5636500EBA69F /* 15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 15.txt; path = File/15.txt; sourceTree = SOURCE_ROOT; };
+		7532551521A5636500EBA69F /* 25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 25.txt; path = File/25.txt; sourceTree = SOURCE_ROOT; };
+		7532551621A5636500EBA69F /* 26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 26.txt; path = File/26.txt; sourceTree = SOURCE_ROOT; };
+		7532551721A5636500EBA69F /* 23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 23.txt; path = File/23.txt; sourceTree = SOURCE_ROOT; };
+		7532551821A5636500EBA69F /* 17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 17.txt; path = File/17.txt; sourceTree = SOURCE_ROOT; };
+		7532551921A5636500EBA69F /* 22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 22.txt; path = File/22.txt; sourceTree = SOURCE_ROOT; };
+		7532551A21A5636500EBA69F /* 30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 30.txt; path = File/30.txt; sourceTree = SOURCE_ROOT; };
+		7532551B21A5636500EBA69F /* 14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 14.txt; path = File/14.txt; sourceTree = SOURCE_ROOT; };
+		7532551C21A5636500EBA69F /* 27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 27.txt; path = File/27.txt; sourceTree = SOURCE_ROOT; };
+		7532551D21A5636500EBA69F /* 28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 28.txt; path = File/28.txt; sourceTree = SOURCE_ROOT; };
+		7532551E21A5636500EBA69F /* 29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 29.txt; path = File/29.txt; sourceTree = SOURCE_ROOT; };
+		7532551F21A5636500EBA69F /* 21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 21.txt; path = File/21.txt; sourceTree = SOURCE_ROOT; };
+		7532552021A5636600EBA69F /* 18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 18.txt; path = File/18.txt; sourceTree = SOURCE_ROOT; };
+		7532552121A5636600EBA69F /* 11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 11.txt; path = File/11.txt; sourceTree = SOURCE_ROOT; };
+		7532552221A5636600EBA69F /* 16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 16.txt; path = File/16.txt; sourceTree = SOURCE_ROOT; };
+		7532552321A5636600EBA69F /* 19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 19.txt; path = File/19.txt; sourceTree = SOURCE_ROOT; };
+		7532552421A5636600EBA69F /* 24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 24.txt; path = File/24.txt; sourceTree = SOURCE_ROOT; };
+		7532552521A5636600EBA69F /* 20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 20.txt; path = File/20.txt; sourceTree = SOURCE_ROOT; };
+		7532552621A5636600EBA69F /* 12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 12.txt; path = File/12.txt; sourceTree = SOURCE_ROOT; };
+		7532552721A5636600EBA69F /* 13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 13.txt; path = File/13.txt; sourceTree = SOURCE_ROOT; };
+		753F2C0F21A3DD9F00DBFF26 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		75563A8E21A2AE28004F3D4C /* Metro Musium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metro Musium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75563A9121A2AE28004F3D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75563A9321A2AE28004F3D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75563A9621A2AE28004F3D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75563A9921A2AE28004F3D4C /* Metro_Musium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Metro_Musium.xcdatamodel; sourceTree = "<group>"; };
 		75563A9B21A2AE2A004F3D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75563A9E21A2AE2A004F3D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75563AA021A2AE2A004F3D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75563AA621A2B04D004F3D4C /* WorkListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkListController.swift; sourceTree = "<group>"; };
+		75563AA821A2B068004F3D4C /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		75563AAA21A2B1EE004F3D4C /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		75563AAD21A2FA98004F3D4C /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		75563AB321A30D25004F3D4C /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +116,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75563AAF21A2FA9E004F3D4C /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753254FF21A5620200EBA69F /* File */ = {
+			isa = PBXGroup;
+			children = (
+				7532550821A5623C00EBA69F /* 1.txt */,
+				7532550421A5623C00EBA69F /* 2.txt */,
+				7532550621A5623C00EBA69F /* 3.txt */,
+				7532550121A5623C00EBA69F /* 4.txt */,
+				7532550521A5623C00EBA69F /* 5.txt */,
+				7532550921A5623C00EBA69F /* 6.txt */,
+				7532550021A5623C00EBA69F /* 7.txt */,
+				7532550221A5623C00EBA69F /* 8.txt */,
+				7532550321A5623C00EBA69F /* 9.txt */,
+				7532550721A5623C00EBA69F /* 10.txt */,
+				7532552121A5636600EBA69F /* 11.txt */,
+				7532552621A5636600EBA69F /* 12.txt */,
+				7532552721A5636600EBA69F /* 13.txt */,
+				7532551B21A5636500EBA69F /* 14.txt */,
+				7532551421A5636500EBA69F /* 15.txt */,
+				7532552221A5636600EBA69F /* 16.txt */,
+				7532551821A5636500EBA69F /* 17.txt */,
+				7532552021A5636600EBA69F /* 18.txt */,
+				7532552321A5636600EBA69F /* 19.txt */,
+				7532552521A5636600EBA69F /* 20.txt */,
+				7532551F21A5636500EBA69F /* 21.txt */,
+				7532551921A5636500EBA69F /* 22.txt */,
+				7532551721A5636500EBA69F /* 23.txt */,
+				7532552421A5636600EBA69F /* 24.txt */,
+				7532551521A5636500EBA69F /* 25.txt */,
+				7532551621A5636500EBA69F /* 26.txt */,
+				7532551C21A5636500EBA69F /* 27.txt */,
+				7532551D21A5636500EBA69F /* 28.txt */,
+				7532551E21A5636500EBA69F /* 29.txt */,
+				7532551A21A5636500EBA69F /* 30.txt */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 		75563A8521A2AE28004F3D4C = {
 			isa = PBXGroup;
 			children = (
 				75563A9021A2AE28004F3D4C /* Metro Musium */,
 				75563A8F21A2AE28004F3D4C /* Products */,
+				75563AAC21A2FA98004F3D4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +181,27 @@
 			isa = PBXGroup;
 			children = (
 				75563A9121A2AE28004F3D4C /* AppDelegate.swift */,
-				75563A9321A2AE28004F3D4C /* ViewController.swift */,
+				75563AA621A2B04D004F3D4C /* WorkListController.swift */,
+				75563AB321A30D25004F3D4C /* DetailController.swift */,
+				753F2C0F21A3DD9F00DBFF26 /* PhotoController.swift */,
+				75563AA821A2B068004F3D4C /* WorkCell.swift */,
+				75563AAA21A2B1EE004F3D4C /* Work.swift */,
 				75563A9521A2AE28004F3D4C /* Main.storyboard */,
+				753254FF21A5620200EBA69F /* File */,
 				75563A9B21A2AE2A004F3D4C /* Assets.xcassets */,
 				75563A9D21A2AE2A004F3D4C /* LaunchScreen.storyboard */,
 				75563AA021A2AE2A004F3D4C /* Info.plist */,
 				75563A9821A2AE28004F3D4C /* Metro_Musium.xcdatamodeld */,
 			);
 			path = "Metro Musium";
+			sourceTree = "<group>";
+		};
+		75563AAC21A2FA98004F3D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75563AAD21A2FA98004F3D4C /* Kingfisher.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +214,8 @@
 				75563A8A21A2AE28004F3D4C /* Sources */,
 				75563A8B21A2AE28004F3D4C /* Frameworks */,
 				75563A8C21A2AE28004F3D4C /* Resources */,
+				75563AB121A2FA9F004F3D4C /* Embed Frameworks */,
+				75563AB221A2FAA7004F3D4C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,22 +264,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7532552F21A5636600EBA69F /* 14.txt in Resources */,
+				7532552C21A5636600EBA69F /* 17.txt in Resources */,
+				7532552921A5636600EBA69F /* 25.txt in Resources */,
+				7532551221A5623C00EBA69F /* 1.txt in Resources */,
+				7532550B21A5623C00EBA69F /* 4.txt in Resources */,
+				7532553321A5636600EBA69F /* 21.txt in Resources */,
+				7532552D21A5636600EBA69F /* 22.txt in Resources */,
+				7532553121A5636600EBA69F /* 28.txt in Resources */,
 				75563A9F21A2AE2A004F3D4C /* LaunchScreen.storyboard in Resources */,
+				7532553021A5636600EBA69F /* 27.txt in Resources */,
+				7532553821A5636600EBA69F /* 24.txt in Resources */,
+				7532551021A5623C00EBA69F /* 3.txt in Resources */,
+				7532552821A5636600EBA69F /* 15.txt in Resources */,
 				75563A9C21A2AE2A004F3D4C /* Assets.xcassets in Resources */,
+				7532553421A5636600EBA69F /* 18.txt in Resources */,
+				7532550F21A5623C00EBA69F /* 5.txt in Resources */,
+				7532553621A5636600EBA69F /* 16.txt in Resources */,
+				7532552B21A5636600EBA69F /* 23.txt in Resources */,
+				7532550C21A5623C00EBA69F /* 8.txt in Resources */,
+				7532550A21A5623C00EBA69F /* 7.txt in Resources */,
+				7532553921A5636600EBA69F /* 20.txt in Resources */,
+				7532553721A5636600EBA69F /* 19.txt in Resources */,
+				7532551121A5623C00EBA69F /* 10.txt in Resources */,
+				7532553A21A5636600EBA69F /* 12.txt in Resources */,
+				7532551321A5623C00EBA69F /* 6.txt in Resources */,
+				7532552E21A5636600EBA69F /* 30.txt in Resources */,
+				7532552A21A5636600EBA69F /* 26.txt in Resources */,
+				7532550E21A5623C00EBA69F /* 2.txt in Resources */,
+				7532550D21A5623C00EBA69F /* 9.txt in Resources */,
+				7532553521A5636600EBA69F /* 11.txt in Resources */,
 				75563A9721A2AE28004F3D4C /* Main.storyboard in Resources */,
+				7532553B21A5636600EBA69F /* 13.txt in Resources */,
+				7532553221A5636600EBA69F /* 29.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75563AB221A2FAA7004F3D4C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75563A8A21A2AE28004F3D4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75563A9421A2AE28004F3D4C /* ViewController.swift in Sources */,
+				75563AA921A2B068004F3D4C /* WorkCell.swift in Sources */,
 				75563A9221A2AE28004F3D4C /* AppDelegate.swift in Sources */,
+				75563AAB21A2B1EE004F3D4C /* Work.swift in Sources */,
+				753F2C1021A3DD9F00DBFF26 /* PhotoController.swift in Sources */,
 				75563A9A21A2AE28004F3D4C /* Metro_Musium.xcdatamodeld in Sources */,
+				75563AB421A30D25004F3D4C /* DetailController.swift in Sources */,
+				75563AA721A2B04D004F3D4C /* WorkListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +482,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWW3CV2X72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Metro Musium/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ind.azumax.Metro-Musium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +505,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWW3CV2X72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Metro Musium/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ind.azumax.Metro-Musium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
