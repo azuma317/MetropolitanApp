@@ -40,10 +40,12 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
         pageTextField.resignFirstResponder()
     }
 
+    // ファイルからIDを読み取って配列に格納
     func loadWork() {
         guard let path = Bundle.main.path(forResource: "\(selectedPage)", ofType: "txt") else { return }
         guard let workID = try? String(contentsOfFile: path, encoding: .utf8) else { return }
         self.workIDs = []
+        // 1行ずつ読み取って配列に格納する
         workID.enumerateLines(invoking: { (workID, _) in
             guard let id = Int(workID) else { return }
             self.workIDs.append(id)
@@ -62,6 +64,7 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
                     if work.isTrue() && !(self.tempWorks.last?.artistName == work.artistName && self.tempWorks.last?.title == work.title) {
                         self.tempWorks.append(work)
                         DispatchQueue.main.async {
+                            // 25個のデータを取得するごとに表示
                             if self.tempWorks.count % 25 == 0 {
                                 self.works = self.tempWorks
                                 self.tableView.reloadData()
@@ -75,6 +78,7 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
         }
     }
 
+    // Page機能
     @IBAction func textFieldEditing(_ sender: UITextField) {
         sender.inputView = pickerView
     }
@@ -96,6 +100,7 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
         pageTextField.text = "\(pages[row])Page"
     }
 
+    // TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return works.count
     }
@@ -109,6 +114,7 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
         return cell
     }
 
+    // TableView Delegate
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 240
     }
@@ -117,6 +123,7 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
         performSegue(withIdentifier: "toDetail", sender: works[indexPath.item])
     }
 
+    // 画面遷移
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let work = sender as? Work else { return }
         guard let vc = segue.destination as? DetailController else { return }
