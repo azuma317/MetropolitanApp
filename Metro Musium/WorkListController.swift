@@ -120,18 +120,14 @@ class WorkListController: UITableViewController, UITextFieldDelegate, UIPickerVi
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "toDetail", sender: works[indexPath.item])
+        performSegue(withIdentifier: "toPhoto", sender: works[indexPath.item])
     }
 
     // 画面遷移
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let work = sender as? Work else { return }
-        guard let vc = segue.destination as? DetailController else { return }
+        guard let vc = segue.destination as? PhotoController else { return }
         vc.imagePath = work.imagePath
-        vc.workName = work.title
-        vc.artistName = work.artistName
-        vc.date = work.date
-        vc.classification = work.classification
     }
 
 }
